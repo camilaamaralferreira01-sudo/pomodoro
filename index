@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" >
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Pomodoro Timer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
-
+  <meta charset="utf-8">
+  <title>Pomodoro Timer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div id="root"></div>
-<!-- partial -->
-  <script type="module" src="./script.js"></script>
-
+  <div class="container">
+    <h1>Pomodoro Timer</h1>
+    <div id="timer">25:00</div>
+    <div class="buttons">
+      <button id="start">Iniciar</button>
+      <button id="pause">Pausar</button>
+      <button id="reset">Resetar</button>
+    </div>
+    <p id="status">Sessão de foco</p>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
